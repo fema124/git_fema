@@ -6,12 +6,14 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Asap&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="script.js" async></script>
     </head>
 
     <body>
-        <header class="header">
+        <a class="back_to_top" title="Наверх">↑</a>
+        <div class="home_page">
             <div class="container">
-                <div class="header_top">
+                <header>
                     <div class="header_top_logo">
                         <div><img src="images/Vector-Smart-Object.png"/></div>
                         <span class="header_top_logo_textI">OENRIQUE</span>
@@ -26,28 +28,28 @@
                             <a href="#">CONTACT</a>
                         </nav>
                     </div>
-                </div>
-                <div class="header_content">
-                        <div class="header_content_left">
-                            <div class="header_content_left_block">
-                                <span class="header_content_left_block_textI">Luis Oenrique</span>
-                                <span class="header_content_left_block_textII">User Experience / User Interface Expert</span>
-                                <div class="header_content_left_block_buttons">
-                                    <div class="header_content_left_block_dws">
-                                        <a href="#" class="header_content_left_block_button">KNOW MORE</a>
+                </header>
+                <div class="home_page_content">
+                        <div class="home_page_content_left">
+                            <div class="home_page_content_left_block">
+                                <span class="home_page_content_left_block_textI">Luis Oenrique</span>
+                                <span class="home_page_content_left_block_textII">User Experience / User Interface Expert</span>
+                                <div class="home_page_content_left_block_buttons">
+                                    <div class="home_page_content_left_block_dws">
+                                        <a href="#" class="home_page_content_left_block_button">KNOW MORE</a>
                                     </div>
-                                    <div class="header_content_left_block_dws">
-                                        <a href="#" class="header_content_left_block_button">HIRE ME</a>
+                                    <div class="home_page_content_left_block_dws">
+                                        <a href="#" class="home_page_content_left_block_button">HIRE ME</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="header_content_right">
+                        <div class="home_page_content_right">
                             <img src="images/img-face.png"/>
                         </div>
                 </div>  
             </div>  
-        </header>
+        </div>
         <div class="about">
             <div class="container">
                 <div class="about_content">
@@ -154,9 +156,8 @@
                     </div>
                     <span class="testimonials_title_testimonials">TESTIMONIALS</span>
                 </div>
-                <div class="testimonials_block">
-                    <div class="testimonials_block_content">
-
+                <div id="testimonials_block" class="testimonials_block">
+                    <div class="testimonials_block_content showing">
                         <div>
                             <img src="Images/face.png"/>
                         </div>
@@ -169,9 +170,37 @@
                             consequatur perferendis officiis.
                             </p>
                         </div>
+                    </div>
+                    <div class="testimonials_block_content">
+                        <div>
+                            <img src="Images/face1.png"/>
+                        </div>
+                        <div class="testimonials_block_content_text">
+                            <span class="testimonials_block_content_text1">WOMAN NAME</span>
+                            <span class="testimonials_block_content_text2">CEO, RANDOM COMPANY</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Placeat voluptatem, cum sunt saepe est nulla deserunt ea nam 
+                            excepturi magnam dolorem a animi ipsam nostrum aliquam culpa 
+                            consequatur perferendis officiis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="testimonials_block_content">
+                        <div>
+                            <img src="Images/face2.png"/>
+                        </div>
+                        <div class="testimonials_block_content_text">
+                            <span class="testimonials_block_content_text1">MAN NAME</span>
+                            <span class="testimonials_block_content_text2">CEO, RANDOM COMPANY</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Placeat voluptatem, cum sunt saepe est nulla deserunt ea nam 
+                            excepturi magnam dolorem a animi ipsam nostrum aliquam culpa 
+                            consequatur perferendis officiis.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
         <div class="funfact">
             <div class="container">
                 <div class="funfact_content">
@@ -229,8 +258,5 @@
                 </div>
             </div>
         </footer>
-        <script>
-            
-        </script>
     </body> 
 </html>
